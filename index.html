@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Příprava na praktickou prověrku</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1 class="center">Příprava na praktickou prověrku</h1>
+        <ul>
+            <li><a href="#Textove_upravy">Textové upravy </a></li>
+            <li><a href="#Tabulka">Tabulka</a></li>
+        </ul>
+    </header>
+    <main>
+        <h2 id="Textove_upravy">Textové úpravy</h2>
+        <h3>Adresy používané na internetu</h3>
+        <h3>IPv4</h3>
+        <p>
+            Zkratka IPv4 znamená <mark>Internet Protocol version 4 (IPv4)</mark> je v informatice čtvrtá revize IP (Internet Protocol) a zároveň jeho první verze, která se masivně rozšířila. IPv4 společně s <a href="https://cs.wikipedia.org/wiki/IPv6" target="_blank">IPv6</a> vytvářejí základ pro komunikaci v rámci sítě Internet. 
+            IPv4 je popsána IETF v RFC 791 <mark>(září 1981)</mark>, které nahradilo RFC 760 (leden 1980).
+            IPv4 je <mark>datově orientovaný protokol</mark>, který je používán v sítích s přepojováním paketů (např. Ethernet). Jde o protokol přepravující data bez záruky, 
+            tj. negarantuje ani doručení ani zachování pořadí ani vyloučení duplicit. Zajištění těchto záruk je ponecháno na vyšší vrstvě, kterou představuje protokol <mark>TCP</mark>.
+            Stejně tak je na vyšší vrstvě ponechána kontrola integrity dat, protože IPv4 datagram nese pouze informaci o
+            kontrolním součtu hlavičky datagramu se služebními údaji.
+            Starší protokol IPv4 poskytuje omezený adresní prostor – teoreticky <mark>232 adres</mark> (cca 4×109 = 4 miliardy adres), prakticky však mnohem méně, protože adresy jsou sdružovány kvůli snadnějšímu směrování do podsítí (viz maska sítě).
+            Protokol IPv4 též nevyhovuje současnému nárůstu přenosových rychlostí (zejména kvůli přenosu multimediálních dat – videokonference, internetová televize, telefonování po internetu atd.).
+        </p>
+        <dl>
+            <dt>HTML</dt>
+            <dd>HyperText Markup Language</dd>
+            <dt>HTTP</dt>
+            <dd>Hypertext Transfer Protocol</dd>
+            <dt>Validátor</dt>
+            <dd>Program pro kontrolu platnosti dokumentu</dd>
+            <dt>Server</dt>
+            <dd>Počítač, který poskytuje nějaké služby, nebo počítačový program, který tyto služby realizuje</dd>
+        </dl>
+        <h2 id="Tabulka">Tabulka</h2>
+        <table class="table">
+            <thead>
+            <tr>
+                <th rowspan="2">Nečíslovaný seznam</th>
+                <th colspan="2">Prvky stránky</th>
+                <th rowspan="2">Obrázek</th>
+            </tr>
+            <tr>
+                <th>Značky</th>
+                <th>Entity</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td rowspan="2">
+                <ul>
+                    <li>IP Adresa</li>
+                    <li>Jmenná adresa</li>
+                    <li>URL</li>
+                </ul>
+                </td>
+                <td class="centered">H<sub>2</sub>SO<sub>4</sub></td>
+                <td class="centered">&amp;</td>
+                <td rowspan="2">
+                <img
+                    src="img/motherboard.jpg"
+                    alt="Motherboard"
+                    class="img"
+                />
+                </td>
+            </tr>
+            <tr>
+                <td class="centered">c = a&sup2; + b&sup2;</td>
+                <td class="centered">&copy;</td>
+            </tr>
+            </tbody>
+            <tfoot>
+            <tr>
+                <td colspan="1">Odkaz</td>
+                <td colspan="3"><a href="https://validator.w3.org/">validator.w3.org</a></td>
+            </tr>
+            </tfoot>
+        </table>
+    </main>
+    <footer>
+        <hr>
+        <p class="center">&copy; Matyáš Pierník <strong>IT1</strong>, <a href="https://www.sspu-opava.cz/cs/" target="_blank">SŠPU Opava</a></p>
+        </footer>
+</body>
+</html>
